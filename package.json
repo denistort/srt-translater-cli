@@ -1,0 +1,42 @@
+{
+  "name": "srt-translater-cli",
+  "version": "1.0.0",
+  "description": "this cli is running in the course root folder and then it find all subtitle files and translate them and save with the same name and post-fix -{lang} you choose",
+  "main": "index.js",
+  "author": {
+    "name": "Denis Korablev",
+    "email": "denismakste@gmail.com",
+    "url": "https://github.com/denistort"
+  },
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "translate-cli": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "Translate",
+    "txt",
+    "subs-srt",
+    "srt"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "readme": "w",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "bugs": {
+    "email": "pasmurnodenis@gmail.com",
+    "url": "https://github.com/denistort"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.0.0",
+    "http-proxy-agent": "^5.0.0",
+    "terminal-kit": "^3.0.0"
+  }
+}
