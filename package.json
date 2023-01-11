@@ -1,5 +1,5 @@
 {
-  "name": "srt-translater-cli",
+  "name": "sub-translater-cli",
   "version": "1.0.0",
   "description": "this cli is running in the course root folder and then it find all subtitle files and translate them and save with the same name and post-fix -{lang} you choose",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "type": "module",
   "license": "MIT",
   "bin": {
-    "srt-translater-cli": "./src/index.js"
+    "sub-translater-cli": "./src/index.js"
   },
   "scripts": {
     "start": "node ./src/index.js"
