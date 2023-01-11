@@ -4,7 +4,7 @@ class State {
   #currentFolder = null;
   #currentType = 'Single';
   #amountsTypes = ['Single'];
-  #formats = ['.srt', '.txt', '.html']
+  #formats = ['.srt', '.txt', '.html', '.vtt']
   constructor() {
     this.#currentFolder = process.cwd();
     this.languages = Object.keys(languages_list).reduce((acc, key) => {

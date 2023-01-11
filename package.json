@@ -11,7 +11,7 @@
   "type": "module",
   "license": "MIT",
   "bin": {
-    "translate-cli": "./src/index.js"
+    "srt-translater-cli": "./src/index.js"
   },
   "scripts": {
     "start": "node ./src/index.js"
@@ -24,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/denistort/srt-translater-cli"
   },
   "readme": "w",
   "devDependencies": {
